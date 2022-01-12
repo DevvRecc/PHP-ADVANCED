@@ -4,25 +4,14 @@
 
 <?php
 
-$studenten['Piet'] = "Piet";
-$studenten['Mohamed'] = "Mohamed";
-$studenten['Kees'] = "Kees";
-echo "Voornaam: ". $studenten['Mohamed'] . "</br>";
+$student['voornaam'] = "Recep";
+$student['achternaam'] = "Yildiz";
+$student['leeftijd'] = 17;
+$student['klas'] = '1D';
 
-$achternamen['Piet'] = "Van Gooij";
-$achternamen['Mohamed'] = "Ali";
-$achternamen['Kees'] = "Munt";
-echo "Achternaam: ". $achternamen['Mohamed'] . "</br>";
+echo "Gegevens Recep: Voornaam:". " " . " " . $student['voornaam'] . " " . "Achternaam:" . $student['achternaam'] . " " . "Leeftijd:" . " " . $student['leeftijd'] . " ". "Klas:" . " " . $student['klas'];
+?>
 
-$leeftijd['Piet'] = 16;
-$leeftijd['Mohamed'] = 17;
-$leeftijd['Kees'] = 19;
-echo "Leeftijd: ". $leeftijd['Mohamed'] . "</br>";
-
-$klas['Piet'] = "8g";
-$klas['Mohamed'] = "6g";
-$klas['Kees'] = "8g";
-echo "Klas: ". $klas['Mohamed'] . "</br>";
 
 ?>
     
