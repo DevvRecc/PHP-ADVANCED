@@ -7,13 +7,28 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Welke klas zit je nou?</title>
 </head>
-<body>
-
-<?php
-
-$klassen = ['8A' , '8B' , '8C' , '8D' , '8E' , '9A' , '9B' , '9C' , '9D' , '9E'];
-
+    <body>
+        <div class="contact-form">
+            <form>
+                <label for="klas">Klas: </label>
+                <select id="klas" name='klas'>
+                <?php
+        	        $klassen = ['8A' , '8B' , '8C' , '8D' , '8E' , '9A' , '9B' , '9C' , '9D' , '9E'];
+                        foreach($klassen as $klas){
+                     if($klassen == $klas){
+                    echo "<option value='$klassen'selected>$klas</option>";
+                }
+                     else{
+                    echo "<option value='$klassen'>$klas</option>";
+                }
+            }
 ?>
+                </select>
+                <input type="submit" value= "Submit">
+            </form>
+        </div>
 
-</body>
+
+
+    </body>
 </html>
