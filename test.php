@@ -2,9 +2,13 @@
 <html lang="en">
 <body>
     <?php 
-for($x=0; $x<10; $x++) {
-    echo "X";
-  }
+$dagen = array("maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag");
+
+for($i=0; $i<count($dagen); $i++) {
+
+    echo $dagen[$i] 
+}
+
       ?>
 </body>
 </html>
