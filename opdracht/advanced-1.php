@@ -35,7 +35,7 @@
     <p>Leeftijd: <input name="leeftijd"></p>
     <p>Woonplaats: <input name="plaats"></p>
     <p>Hobby: <input name="hobby"></p>
-    <p>Tabel-Border Dikte: <input name="border-dikte"></p>
+    <p>Border Dikte: <input name="border-dikte"></p>
     <p>Padding: <input name="padding"></p>
 
 
