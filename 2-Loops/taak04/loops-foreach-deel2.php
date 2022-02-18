@@ -13,10 +13,12 @@
                 <label for="klas">Klas: </label>
                 <select id="klas" name='klas'>
                 <?php
+                    echo "<ul>"
         	        $klassen = ['8A' , '8B' , '8C' , '8D' , '8E' , '9A' , '9B' , '9C' , '9D' , '9E'];
                         foreach($klassen as $klas ){
-                            echo "<option value='$klas'>$klas</option>";
+                            echo "<li><option value='$klas'>$klas</option></li>";
                         }
+                    echo "</ul>"    
         	    ?>
                 </select>
                 <input type="submit" value= "Submit">

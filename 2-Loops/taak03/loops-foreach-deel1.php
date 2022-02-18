@@ -4,9 +4,9 @@
 
 <?php 
     echo "<ul>";
-$dagen = array("Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag");
+    $dagen = array("Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag");
     foreach($dagen as $day)
-    echo "<li>$day <br> </li>";
+    echo "<li>$day</li>";
     echo "</ul>";
 ?>
     

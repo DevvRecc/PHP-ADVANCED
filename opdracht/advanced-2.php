@@ -26,6 +26,7 @@
     foreach( $informatie as $key => $rec ){
          maakRij($key, $rec);
     }
+    
     echo "</table>"
 
 ?>
